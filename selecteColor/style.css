@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav>ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav > ul >li{
+    margin-left: 10px;
+    
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    width: 10rem;
+
+    background-color: black;
+    color: aliceblue;
+    
+}
